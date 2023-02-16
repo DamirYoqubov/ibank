@@ -1,2 +1,4 @@
-github.com/DamirYoqubov/import v0.0.0-20230216084818-05b3d0aa1bd9 h1:NSkhDKocsRaKbCDUrIZ8PQYkSPDSwcrrMGIMY72ATd0=
-github.com/DamirYoqubov/import v0.0.0-20230216084818-05b3d0aa1bd9/go.mod h1:gC6e/3VZ11ne6IjYqxlgELK3wAcfTvH8f8CIlQqcxrk=
+github.com/DamirYoqubov/import/v2 v2.0.0 h1:1Npet5sWcY5TW9dWqgrlYNsonZDXs8/Roxn5AaubuOM=
+github.com/DamirYoqubov/import/v2 v2.0.0/go.mod h1:3YscIEATrJuLF4iepRinmRcdnC89riPJSP4qLR4UBZM=
+github.com/DamirYoqubov/import/v2 v2.0.1 h1:FVV93GqSdvAcASfL7j8yOu2lmn3wN/M7Nol7WaEDYA8=
+github.com/DamirYoqubov/import/v2 v2.0.1/go.mod h1:3YscIEATrJuLF4iepRinmRcdnC89riPJSP4qLR4UBZM=
