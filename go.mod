@@ -1,5 +1,5 @@
-module github.com/DamirYoqubov/ibank
+module github.com/DamirYoqubov/ibank/v2
 
 go 1.19
 
-require github.com/DamirYoqubov/import v0.0.0-20230216084818-05b3d0aa1bd9 // indirect
+require github.com/DamirYoqubov/import/v2 v2.0.1
