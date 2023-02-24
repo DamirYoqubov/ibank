@@ -42,3 +42,33 @@ func FilterByCategory(payments []types.Payment, category types.Category) []types
 	
 	return filtered
 }
+
+// CategoriesTotal возвращает сумму платежей по каждой категории.
+func CategoriesTotal(payments []types.Payment) map[types.Category]types.Money {
+	categories := map[types.Category]types.Money{}
+
+	for _, payment := range payments {
+		categories[payment.Category] += payment.Amount
+	}
+
+	return categories
+}
+
+// CategoriesAvg находит среднее значение расходов по каждый категори
+func CategoriesAvg(payments []types.Payment) map[types.Category]types.Money {
+	
+	categories := map[types.Category]types.Money{}
+
+	avg := map[types.Category]int{}
+
+	for _, payment := range payments {
+		categories[payment.Category] += payment.Amount
+		avg[payment.Category]++ 
+	}
+
+	for key, value := range categories {
+		categories[key] = types.Money( int(value) / avg[key])
+ 	}
+
+	return categories
+}
